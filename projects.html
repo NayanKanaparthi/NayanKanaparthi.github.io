@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayan Kanaparthi - Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            padding: 2em 0;
+            background-color: #0073e6;
+            color: #fff;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #e0e0e0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 2em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project-card {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 2em;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project-card img {
+            width: 150px;
+            height: auto;
+            margin-right: 1em;
+        }
+        .project-details {
+            flex: 1;
+        }
+        .project-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #0073e6;
+            cursor: pointer;
+        }
+        .project-description {
+            margin-top: 0.5em;
+            color: #333;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .github-link {
+            text-align: center;
+            margin-top: 2em;
+        }
+        .github-link a {
+            color: #0073e6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .github-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="https://medium.com/@kanaparthinayan" target="_blank">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Projects</h1>
+        <p>A collection of my personal tech projects</p>
+    </header>
+    
+    <div class="container">
+        <!-- Project Cards -->
+        <div class="project-card">
+            <div class="project-details">
+                <div class="project-title"><a href="https://github.com/NayanKanaparthi/Sarcasm-Detection" target="_blank">Sarcasm-Detection</a></div>
+                <div class="project-description">
+                    <ul>
+                        <p>This project implements a sarcasm detection model for news headlines using a sequence-based neural network. The dataset, sourced from professional news sites (The Onion for sarcasm and Huffington Post for regular news), ensures high-quality labels and minimal noise. Utilizing TensorFlow, Keras, and pre-trained embeddings, the final CNN-based model achieves an accuracy of 99.15% on the test set, making it highly effective for identifying sarcastic headlines.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-details">
+                <div class="project-title"><a href="https://github.com/NayanKanaparthi/Stock-prediction-RNN" target="_blank">Stock-prediction-RNN</a></div>
+                <div class="project-description">
+                    <ul>
+                        <p>This project utilizes Recurrent Neural Networks (RNNs) with LSTM layers to predict stock prices based on historical time series data. Leveraging Python, Keras, and NumPy, the model learns from past stock price movements and generates predictions for future values. Through feature scaling and careful data preprocessing, the trained model achieves a reasonably low error (RMSE), providing a useful insight into stock trend forecasting.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-details">
+                <div class="project-title"><a href="https://github.com/NayanKanaparthi/Bicep_curl_Buddy" target="_blank">Bicep_curl_Buddy</a></div>
+                <div class="project-description">
+                    <ul>
+                        <p>This Python application leverages OpenCV and MediaPipe to provide real-time pose estimation and rep counting during bicep curls. By tracking key landmarks (shoulder, elbow, and wrist), it dynamically measures angle changes to identify movement stages and accurately count repetitions. The result is a valuable tool for users looking to monitor their exercise form and progress.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-details">
+                <div class="project-title"><a href="https://github.com/NayanKanaparthi/Text-Prediction-using-RNN" target="_blank">Text-Prediction-using-RNN</a></div>
+                <div class="project-description">
+                    <ul>
+                        <p>This project trains a Recurrent Neural Network (RNN) using LSTM layers to generate text predictions based on Irish song lyrics. By learning word patterns and sequences from the input dataset, the model can produce original, poetry-like lines. Leveraging tokenization, padded sequences, and word embeddings, it captures linguistic structures and styles from the source text, resulting in coherent yet creatively generated verses.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-details">
+                <div class="project-title"><a href="https://github.com/NayanKanaparthi/movie-recommender" target="_blank">movie-recommender</a></div>
+                <div class="project-description">
+                    <ul>
+                        <p>This Streamlit-powered movie recommendation application suggests similar titles based on a selected movie. Leveraging a precomputed similarity matrix (trained on movie metadata, cast, crew, and keywords), it retrieves and displays the top recommended films alongside their posters. The front-end is designed with Streamlit, while data and model artifacts are loaded from pickle files and queried through an API for posters, offering users a smooth and interactive movie discovery experience.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-details">
+                <div class="project-title"><a href="https://github.com/The-Solaris-Mission/Cosmic-Classifer" target="_blank">The-Solaris-Mission/Cosmic-Classifier</a></div>
+                <div class="project-description">
+                    <ul>
+                        <p>Cosmic-Classifier is a Streamlit-based application that predicts whether an exoplanet candidate is confirmed, a candidate, or a false positive. Trained on NASA’s exoplanet archive data, the tool uses advanced machine learning models (Random Forests and stacked ensembles) to process orbital, planetary, and stellar features. The app provides real-time predictions with accompanying confidence scores, making it an accessible resource for researchers, data scientists, and enthusiasts exploring planetary classification beyond our solar system.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="github-link">
+            <p>Check out more of my projects on <a href="https://github.com/NayanKanaparthi" target="_blank">GitHub</a>.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Nayan Kanaparthi | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

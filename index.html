@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayan Kanaparthi - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            padding: 2em 0;
+            background-color: #0073e6;
+            color: #fff;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #e0e0e0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 2em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img.profile {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            border: 5px solid #0073e6;
+        }
+        section {
+            margin: 2em 0;
+        }
+        section h2 {
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 0.5em;
+            color: #0073e6;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 1em 0;
+        }
+        a {
+            text-decoration: none;
+            color: #0073e6;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin: 2em 0;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .project-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+        .side-heading {
+            font-weight: bold;
+            color: #555;
+        }
+        nav {
+            background-color: rgba(0, 35, 102, 0.8); /* Dark blue with 80% opacity */
+            color: #fff;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        nav ul li a.active {
+            text-decoration: underline;
+        }
+        .scrolling-text {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #0073e6;
+            color: #000;
+            font-size: 1.2em;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .scrolling-text span {
+            display: inline-block;
+            padding-left: 100%;
+            animation: scroll 15s linear infinite;
+        }
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="https://medium.com/@kanaparthinayan" target="_blank">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Nayan Kanaparthi</h1>
+        <p>Aspiring Management Consultant | Entrepreneur | Community Leader | Tech Enthusiast</p>
+        <img src="image.jpeg" alt="Profile Picture" class="profile">
+        <p>Building AdVantage & Solaris | MIT Trained Entrepreneur & Innovator | Host @Explore the Cosmos with Solaris | SIB Alumni @ Suzuki Innovation Centre | Microsoft for Start-ups Founder | Founder @MSC Hyderabad</p>
+    </header>
+    
+    <div class="container">
+        <!-- About Me -->
+        <section>
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I’m a tech-driven innovator, entrepreneur, and community builder passionate about leveraging technology to solve real-world problems. With experience spanning edtech, blockchain, and AI, I’ve co-founded impactful startups, led thriving tech communities, and worked on projects that bridge the gap between innovation and accessibility.
+                Here, you’ll find details about my entrepreneurial journey, technical projects, and initiatives aimed at empowering communities through education and technology. Feel free to explore my work and don’t hesitate to connect—I’d love to collaborate and share ideas!</p>
+        </section>
+        
+        <!-- Work and Projects -->
+        <section id="projects">
+            <h2>Works</h2>
+            <ul>
+                <li>
+                    <span class="project-name">AdVantage Ecosystem</span><br>
+                    <span class="side-heading">Overview:</span> Co-founded an edtech startup focused on scalable, community-driven learning solutions.<br>
+                    <span class="side-heading">Impact:</span> Spearheaded the creation of an innovative edtech platform transforming education into a more inclusive and accessible experience through community-driven learning. Led strategic pivots based on extensive user feedback, aligning the platform with market demands. Authored a comprehensive white paper, "Reimagining Global Education: The AdVantage Ecosystem for Collaborative, Purpose-Driven Learning," showcasing the platform’s vision and technological roadmap. Facilitated learning opportunities for thousands of students globally, emphasizing curiosity, autonomy, and skill development.<br>
+                    <span class="side-heading">White Paper:</span> <a href="Reimagining Global Education_ The AdVantage Ecosystem for Collaborative, Purpose-Driven Learning.pdf" target="_blank">Reimagining Global Education: The AdVantage Ecosystem for Collaborative, Purpose-Driven Learning</a>
+                </li>
+                <li>
+                    <span class="project-name">BERT-Based Emotion Detection and Content Recommendation</span><br>
+                    <span class="side-heading">Focus:</span> Leveraging AI and NLP for digital mental health support.<br>
+                    <span class="side-heading">Published In:</span> International Journal of Scientific Research in Engineering and Management,<br>
+                    <a href="https://ijsrem.com/download/bert-based-emotion-detection-and-real-time-content-recommendation-system-for-digital-mental-health-support/">BERT-Based Emotion Detection and Content Recommendation</a>
+                </li>
+                <li>
+                    <span class="project-name">Decentralized Agricultural Marketplaces</span><br>
+                    <span class="side-heading">Focus:</span> Using blockchain to transform agricultural economies with dynamic crop pricing.
+                </li>
+                <li>
+                    <span class="project-name">SOLARIS - Society for Outer Life and Advanced Research on Interstellar Settlements</span><br>
+                    <span class="side-heading">Overview:</span> Founded SOLARIS, a global initiative dedicated to advancing space exploration through research, technology development, and community engagement. SOLARIS focuses on interstellar travel technologies, astrobiology, and sustainable space settlement designs while fostering a community passionate about humanity’s future beyond Earth.<br>
+                    <span class="side-heading">Impact:</span> As the Founder of SOLARIS, I established a multi-domain research organization emphasizing cutting-edge projects in space science and technology. Initiated pioneering research on exoplanet classification through AI-based models, hosted a successful podcast series Exploring the Cosmos with SOLARIS, and published in-depth articles on interstellar propulsion, astrobiology, and planetary exploration. Built an active global community of researchers, enthusiasts, and innovators through collaborative projects, open-source development, and knowledge-sharing events.<br>
+                    <span class="side-heading">Key Links:</span><br>
+                     <a href="https://medium.com/@thesolarismission">The Solaris Mission - Blogs, Latest Research & Insights</a><br>
+                     <a href="https://github.com/The-Solaris-Mission">SOLARIS GitHub - Open Source Space Tech Projects</a><br>
+                     <a href="https://open.spotify.com/show/2LKrwm7r6VNLtbxaFGfJLg?si=4720c3f077fe455f">SOLARIS Podcast - Exploring the Cosmos with SOLARIS</a>
+                </li>
+            </ul>
+        </section>
+        
+        <!-- Community Initiatives -->
+        <section>
+            <h2>Community Initiatives</h2>
+            <ul>
+                <li><strong>Microsoft Student Community Hyderabad</strong> - Founded and led workshops, mentoring over 1,000 students.</li>
+                <li><strong>Frost Hacks - MLH Hackathon</strong> - Co-organized Hyderabad’s first MLH hackathon, hosting 500+ participants.</li>
+                <li><strong>e-DAM Technical Club</strong> - Led as Blockchain Mentor, transforming it into one of Hyderabad’s largest tech communities.</li>
+            </ul>
+        </section>
+        
+        <!-- Skills and Expertise -->
+        <section>
+            <h2>Skills & Expertise</h2>
+            <p><strong>Technical Skills:</strong> Python, SQL,java, HTML, CSS, JavaScript, AI, Blockchain, Data Science, Machine Learning, NLP, MATLAB, Excel (Advanced).</p>
+            <p><strong>Leadership & Strategy:</strong> Product Development, Market Research, Community Building, Mentorship, Strategic Execution, Team Management.</p>
+        </section>
+        
+        <!-- Achievements -->
+        <section>
+            <h2>Achievements</h2>
+            <ul>
+                <li><strong>MIT Leadership & Innovation Bootcamp</strong> - Earned a 75% merit scholarship for exceptional performance.</li>
+                <li><strong>Suzuki Innovation Centre</strong> - Selected among 15 participants from India and Japan for the Seed Innovators Bootcamp.</li>
+                <li><strong>Internet Conference 2.0 Young Achievers Award</strong> - Recognized for contributions to technology and entrepreneurship.</li>
+                <li><strong>Beta Microsoft learn Student Ambassador</strong> - Recognized as Beta Microsoft Learn Student Ambassador.</li>
+                <li><strong>Microsoft for startups founders hub</strong> - Recognized as Microsoft for startups</li>
+            </ul>
+        </section>
+        
+        <!-- Publications -->
+        <section id="blogs">
+            <h2>Publications</h2>
+            <ul>
+                <li><strong>BERT-Based Emotion Detection and Real-Time Content Recommendation System</strong>  <a href="#"></a></li>
+                <li><strong>Decentralized Agricultural Marketplaces: Leveraging Blockchain for Dynamic Crop Pricing(ongoing)</strong></li>
+            </ul>
+        </section>
+        
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Let’s Connect!</p>
+            <ul>
+                <li>Email: <a href="mailto:kanaparthinayan@gmail.com">kanaparthinayan@gmail.com</a></li>
+                <li>LinkedIn: <a href="#">https://www.linkedin.com/in/nayan-kanaparthi-7383a2183/</a></li>
+                <li>Resume: <a href="Resume v2.pdf" target="_blank">Resume</a></li>
+            </ul>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Nayan Kanaparthi | All Rights Reserved</p>
+    </footer>
+    <div class="scrolling-text">
+        <span>~INSPIRING INNOVATION ~ CONNECTING MINDS ~ CREATING IMPACTFUL SOLUTIONS ~</span>
+    </div>
+</body>
+</html>
